@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/color_button_background.xml -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Change the color to the desired color for the default state -->
+    <solid android:color="#607D8B" />
+
+    <!-- Add any additional attributes like corners, padding, etc. as needed -->
+</shape>

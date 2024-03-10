@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTaskID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:autofillHints="Title"
+        android:hint="@string/hint_task_id"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextTaskName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTaskID"
+        android:layout_marginTop="8dp"
+        android:autofillHints="Title"
+        android:hint="@string/hint_task_name"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextTaskDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTaskName"
+        android:layout_marginTop="8dp"
+        android:autofillHints="Description"
+        android:hint="@string/hint_task_description"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/editTextTaskDueDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTaskDescription"
+        android:layout_marginTop="8dp"
+        android:autofillHints="Date"
+        android:hint="@string/hint_task_due_date"
+        android:inputType="date"
+        android:minHeight="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/editTextTaskPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTaskDueDate"
+        android:layout_marginTop="8dp"
+        android:autofillHints="Priority"
+        android:hint="@string/hint_task_priority"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTaskPriority"
+        android:layout_marginTop="8dp"
+        android:hint="@string/hint_task_category"
+        android:minHeight="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Spinner
+        android:id="@+id/spinnerProject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerCategory"
+        android:layout_marginTop="8dp"
+        android:hint="@string/hint_task_project"
+        android:minHeight="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
+
+
+

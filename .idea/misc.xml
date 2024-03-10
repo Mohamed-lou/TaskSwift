@@ -1,0 +1,27 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaskManagerApp2/app/src/main/res/drawable/ic_category.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaskManagerApp2/app/src/main/res/drawable/ic_project.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaskManagerApp2/app/src/main/res/drawable/ic_task.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaskManagerApp2/app/src/main/res/layout/activity_main.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaskManagerApp2/app/src/main/res/layout/dialog_add_category.xml" value="0.10655737704918032" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaskManagerApp2/app/src/main/res/layout/dialog_add_project.xml" value="0.10655737704918032" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaskManagerApp2/app/src/main/res/layout/fragment_category_list.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaskManagerApp2/app/src/main/res/layout/fragment_project_list.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaskManagerApp2/app/src/main/res/layout/fragment_task_list.xml" value="0.10655737704918032" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaskManagerApp2/app/src/main/res/layout/item_category.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaskManagerApp2/app/src/main/res/layout/item_project.xml" value="0.10655737704918032" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaskManagerApp2/app/src/main/res/layout/item_task.xml" value="0.10655737704918032" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TaskManagerApp2/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

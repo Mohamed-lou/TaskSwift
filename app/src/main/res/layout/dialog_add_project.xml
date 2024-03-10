@@ -1,0 +1,50 @@
+<!-- dialog_add_project.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextProjectName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="projectName"
+        android:hint="@string/hint_project_name"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextProjectDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="projectDescription"
+        android:hint="@string/hint_project_description"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextProjectDueDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="projectDueDate"
+        android:hint="@string/hint_project_due_date"
+        android:inputType="datetime"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextProjectPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="projectPriority"
+        android:hint="@string/hint_project_priority"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <!-- Add more fields if needed -->
+
+
+</LinearLayout>
+

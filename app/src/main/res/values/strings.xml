@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">TaskSwift</string>
+    <string name="projects">Projects</string>
+    <string name="categories">Categories</string>
+    <string name="tasks">Tasks</string>
+    <string name="category_name">Category Name</string>
+    <string name="category_description">Category Description</string>
+    <string name="category_priority">Category Priority</string>
+    <string name="add_project">Add Project</string>
+    <string name="add_task">Add Task</string>
+    <string name="add_category">Add Category</string>
+    <string name="dialog_title_add_task">Add Task</string>
+    <string name="hint_task_id">ID</string>
+    <string name="hint_task_name">Name</string>
+    <string name="hint_task_project">Task Project</string>
+    <string name="hint_task_category">Task Category</string>
+    <string name="hint_task_attachments">Task Attachments</string>
+    <string name="hint_task_link">Task Link</string>
+    <string name="hint_task_description">Description</string>
+    <string name="hint_task_due_date">Due Date</string>
+    <string name="hint_task_priority">Priority</string>
+    <string name="button_add_task">Add Task</string>
+
+
+
+    <string name="hint_project_name">Project Name</string>
+    <string name="hint_project_description">Project Description</string>
+    <string name="hint_project_due_date">Project Due Date</string>
+    <string name="hint_project_priority">Project Priority</string>
+    <string name="button_add_project">Add Project</string>
+
+    <!-- Strings for Category Dialog -->
+    <string name="hint_category_name">Category Name</string>
+    <string name="hint_category_description">Category Description</string>
+    <string name="hint_category_priority">Category Priority</string>
+    <string name="hint_category_color">Category Color</string>
+    <string name="button_add_category">Add Category</string>
+    <string name="add_com_example_task_manager_app_category">Add com.example.task_manager_app.Category</string>
+
+    <string name="select_project">Select Project</string>
+    <string name="select_category">Select Category</string>
+    
+    
+    <string name="pick_color">Pick Color</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+
+</resources>
